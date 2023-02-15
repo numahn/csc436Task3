@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App w-[50%] mx-auto py-5">
-      <nav class="flex justify-center gap-5">
+      <nav className="flex justify-center gap-5">
         <button onClick={arrayFilterHandler} className="relative inline-block text-lg group">
           <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
           <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
